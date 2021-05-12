@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="../../../style/style.css">
+    <link rel="stylesheet" href="../../../../css/bootstrap.min.css">
+
+    <!-- binding bootrstrap javascript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+    <!-- BINDING BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <script src="../../../js/header.js" type="text/javascript" defer></script>
+
+    <meta charset="UTF-8">
+    <title>Lernplattform</title>
+</head>
+<body>
+
+<header>
+    <!-- NAVIGATIONBAR -->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="../../../../index.html">
+            <!-- HOME ICON -->
+            <i class="bi bi-house-door"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"><!-- Frw Dropdown-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="frwDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Frw
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                        <a class="dropdown-item" href="../../../frw/abschreibung/theorie.html">Abschreibungen</a>
+                        <a class="dropdown-item" href="../../../frw/aktivpassivRA/theorie.html">Aktive & Passive RA </a>
+                        <a class="dropdown-item" href="../../../frw/ag/theorie.html">AG</a>
+                        <a class="dropdown-item" href="../../../frw/bewertung/theorie.html">Bewertung</a>
+                        <a class="dropdown-item" href="../../../frw/er-bilanz-analyse/theorie.html">Bilanz- &
+                            ER-Analyse</a>
+                        <a class="dropdown-item" href="../../../frw/eu/theorie.html">Einzelunternehmen</a>
+                        <a class="dropdown-item" href="../../../frw/ns/theorie.html">Deckungsbeitragsrechnung</a>
+                        <a class="dropdown-item" href="../../../frw/er-bilanz/theorie.html">ER / Bilanz</a>
+                        <a class="dropdown-item" href="../../../frw/fremdwaehrung/theorie.html">Fremde Währungen </a>
+                        <a class="dropdown-item"
+                           href="../../../frw/geldflussrechnung/theorie.html">Geldflussrechnung</a>
+                        <a class="dropdown-item" href="../../../frw/immob/theorie.html">Immobilien </a>
+                        <a class="dropdown-item" href="../../../frw/jahreabschluss/theorie.html">Jahresabschluss </a>
+                        <a class="dropdown-item" href="../../../frw/kalkulation/theorie.html">Kalkulation im
+                            Industrie-/Produktionsbetrieb</a>
+                        <a class="dropdown-item" href="../../../frw/warenhandel/theorie.html">Kalkulation im
+                            Warenhandel </a>
+                        <a class="dropdown-item" href="../../../frw/bab/theorie.html">Kostenrechnung,
+                            Betriebsabrechnung </a>
+                        <a class="dropdown-item" href="../../../frw/lohn/theorie.html">Lohnbuchhaltung </a>
+                        <a class="dropdown-item" href="../../../frw/mwst-vorsteuer/theorie.html">MWST und Vorsteuer </a>
+                        <a class="dropdown-item"
+                           href="../../../frw/offenposten/theorie.html">Offenpostenbuchhaltung </a>
+                        <a class="dropdown-item" href="../../../frw/rs/theorie.html">Rückstellungen </a>
+                        <a class="dropdown-item" href="../../../frw/verluste-aus-Ford/theorie.html">Verluste aus
+                            Forderungen </a>
+                        <a class="dropdown-item"
+                           href="../../../frw/verrechnungssteuer/theorie.html">Verrechnungssteuer </a>
+                        <a class="dropdown-item" href="../../../frw/warenkonten">Warenkonten </a>
+                        <a class="dropdown-item" href="../../../frw/ws/theorie.html">Wertschriften </a>
+                        <a class="dropdown-item" href="../../../frw/zins/theorie.html">Zinsrechnen </a>
+                    </div>
+                </li>
+                <!-- Wr Dropdown-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="wrDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        WR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../../bwl/finanzierung/theorie.html">Finanzierung </a>
+                        <a class="dropdown-item" href="../../bwl/marketing/theorie.html">Marketing</a>
+                        <a class="dropdown-item" href="../../bwl/versicherung/theorie.html">Versicherungen</a>
+                        <a class="dropdown-item disabled" href="#">VWL</a>
+                        <a class="dropdown-item" href="../../vwl/bip/theorie.html">BIP</a>
+                        <a class="dropdown-item" href="../../vwl/geldpolitik/theorie.html">Geldpolitik</a>
+                        <a class="dropdown-item" href="../../vwl/grundbegriffe/theorie.html">Grundbegriffe der VWL</a>
+                        <a class="dropdown-item" href="../../vwl/konjunktur/theorie.html">Konjunktur </a>
+                        <a class="dropdown-item" href="../../vwl/preisbildung/theorie.html">Preisbildung</a>
+                        <a class="dropdown-item disabled" href="#">Recht</a>
+                        <a class="dropdown-item" href="../../recht/arbeitsvertrag/theorie.html">Arbeitsvertrag </a>
+                        <a class="dropdown-item" href="../../recht/ehe-erbrecht/theorie.html">Ehe- & Erbrecht </a>
+                        <a class="dropdown-item" href="../../recht/kaufvertrag/theorie.html">Kaufvertrag</a>
+                        <a class="dropdown-item" href="../../recht/ug/theorie.html">Unternehmensformen </a>
+                        <a class="dropdown-item" href="../../recht/vertragslehre/theorie.html">Allgemeine
+                            Vertragslehre </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../../glossar.html">Glossar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container recht">
+
+    <h1>Arbeitsverträge</h1>
+
+    <h3 id="theorie">Vertragsarten</h3>
+    <p>Im Wesentlichen unterscheidet man zwischen 3 verschiedenen Vertragsarten. Dazu zählen die Einzelverträge,
+        Werkarbeitsverträge und einfache Aufträge. Darüber hinaus gibt es aber selbstverständlich noch weitere
+        Vertragsarten, welche jedoch <b>nicht Prüfungsrelevant</b> sind und deshalb hier nicht behandelt werden.</p>
+
+    <h5>Einzelverträge</h5>
+    <p>Der Einzelarbeitsvertrag ist <b>formlos</b>, das heisst, er kann auch mündlich vereinbart werden. Jedoch wird
+        verlangt, dass bei Abweichungen von den gesetzlichen Vorgaben (z.B. Probezeit, Überstundenverfügung oder
+        Konkurrenzverbot) eine Schriftlichkeit verfasst wird, in welcher diese festgehalten werden. </p>
+
+    <h6>Zwingende Vorschriften <em>(Art. 361/362 OR)</em></h6>
+    <p><b>Höchstarbeitszeit:</b> Für Arbeitnehmer in industriellen Betrieben, Büropersonal und andere technisch
+        Angestellte sowie Angestellte von Grossbetrieben im Detailhandel gilt, eine Höchstarbeitszeit von 45 Stunden in
+        der Woche. Für alle anderen Angestellten gilt ein Maximum von 50 Stunden.</p>
+
+    <h6>Pflichten des Arbeitnehmers</h6>
+    <p><b>Persönliche Arbeitsleistung:</b> Der Arbeitnehmer muss selbstArbeiten, da er wegen seiner Fähigkeiten
+        eingestellt wurde. Er darf keinen Stellvertreter zur Arbeit schicken. </p>
+    <p><b>Sorgfalts- und Treuepflicht:</b> Der Arbeitnehmer muss seine Arbeit sorgfältig durchführen und muss den ihm
+        zur Verfügung gestellten Werkzeuge/Einrichtungen Sorge tragen.</p>
+    <p><b>Überstundenarbeit:</b> Der Arbeitnehmer ist verpflichtet, falls vom Unternehmen gefordert über die
+        vereinbarte Arbeitszeit hinaus zu arbeiten. Für diese Überzeit muss er jedoch entsprechend entlohnt werden.
+        (Durch einen Lohnzuschlag oder Freizeit).</p>
+    <p><b>Befolgung von Anordnungen und Weisungen:</b> Der Arbeitnehmer ist verpflichtet persönlich erteilten Weisungen
+        und die im Betrieb geltenden Anordnungen einzuhalten.</p>
+    <p><b>Haftung für Schaden:</b> Der Arbeitnehmer haftet für angerichteten Schaden. Jedoch muss in die Beurteilung
+        des Falls, der Bildungsgrad, die Fähigkeiten, gelernte Fachkenntnisse und das Berufsrisiko miteinbezogen werden.
+        Bei leichtfahrlässiger Begehung kann maximal eine Haftung in der Höhe eines Monatslohns gefordert werden.</p>
+
+    <h6>Pflichten des Arbeitgebers</h6>
+    <p><b>Informationspflicht:</b> Er muss den Arbeitnehmer schriftlich über seine Funktion, Lohn und Arbeitszeiten
+        informieren.</p>
+    <p><b>Lohnzahlung:</b> Der Arbeitgeber ist verpflichtet (überweise am Ende des Monats) den Lohn auszubezahlen. </p>
+    <p><b>Lohnzahlung bei unverschuldeter Verhinderung des Arbeitnehmers an der Arbeitsleistung:</b> Der Arbeitgeber
+        ist auch im Falle von Krankheit, Schwangerschaft, Unfall oder obligatorischen Militärdienst verpflichtet den
+        Lohn auszuzahlen. Wenn der Arbeitnehmer obligatorisch versichert ist, gegen z.B. Unfall, so muss der Arbeitgeber
+        den Lohn nicht ausbezahlen, solange die Versicherungsleistung mindestens 80% deckt.</p>
+    <p><b>Gratifikation und 13. Monatslohn:</b> Ein 13. Monatslohn ist im Gegensatz zur Gratifikation ein fester
+        Bestandteil des Lohns.Die Gratifikation ist lediglich ein Zeichen der Anerkennung der erbrachten Leistung und
+        wird meist zu speziellen Anlässen ausbezahlt.</p>
+    <p><b>Ferien und Freizeit:</b> Der Arbeitgeber muss seinen Angestellten mindestens 4 Wochen
+        Ferien pro Jahr geben. Bis zum Ende des20. Lebensjahr besteht zwingender Anspruch auf 5 Wochen Ferien. Das
+        Ausbezahlen der Ferien in Geld ist nicht erlaubt. Der Erholungszweck der Ferien darf nicht vereitelt werden.</p>
+    <p><b>Spesenvergütung und Bereitstellung von Hilfsmitteln:</b> Der Arbeitgeber muss demArbeitnehmer das benötigte
+        Material zur Verfügung stellen. Alternativ kann auch etwas anderes vereinbart werden. Jedoch muss der
+        Arbeitgeber in diesem Fall alle durch die Arbeit angefallenen Kosten ausbezahlen.</p>
+    <p><b>Arbeitszeugnis:</b> Der Arbeitgeber hat die Pflicht auf Verlangen eine Arbeitsbestätigung auszustellen. Diese
+        muss über die Dauer und die Art des Arbeitsverhältnis Auskunft geben. Eine ausführliche Version würde zudem noch
+        Auskunft über erbrachte Leistungen und Verhalten des Arbeitnehmers.</p>
+    <p><b>Personalfürsorge:</b> Der Arbeitgeber ist per Gesetz dazu verpflichtet mindestens die Hälfte der folgenden
+        Prämien zu bezahlen.
+    <ul>
+        <li>Alters-und Hinterlassenenversicherung</li>
+        <li>Invalidenversicherung</li>
+        <li>Erwerbsersatzordnung (auch Lohnausgleich)</li>
+        <li>Arbeitslosenversicherung</li>
+        <li>Berufliche Vorsorge (Pensionskasse) gemäss BV</li>
+    </ul>
+    <p><b>Diskriminierungsverbot:</b> Der Arbeitgeber ist dazu verpflichtet dafür zu sorgen, dass es zu keiner
+        sexuellen Belästigung am Arbeitsplatz kommt, er darf auch keinen Mitarbeiter wegen Geschlecht oder sonstigen
+        diskriminierenden Gründen besser/schlechter behandeln.</p>
+
+
+    <h6>Das Konkurrenzverbot</h6>
+    <p>Das Konkurrenzverbot muss schriftlich vereinbart werden. Es darf auch nur für einen gewissen Ort und eine gewisse
+        Zeit ausgesprochen werden. Bricht der Arbeitnehmer das Konkurrenzverbot, kann er auf Schadensersatz verklagt
+        werden.</p>
+
+    <h5>Werkarbeitsvertrag</h5>
+    <p>LBeim Werkarbeitsvertrag beauftragt der Arbeitgeber den Arbeitnehmer mit der Schaffung eines Werkes.
+        (Speziesware) Daher hat er relativ viele Ähnlichkeiten zumKaufvertrag. Er unterscheidet sich grundsätzlich in
+        folgenden Punkten:</p>
+    <p>Nutzen und Gefahr: Beide gehen erst bei der Ablieferung beim Besteller auf den Arbeitgeber über. Zudem besteht
+        beim Werkarbeitsvertrag das Recht auf Nachbesserung, was beim Kaufvertrag nicht der Fall ist. Bei einem
+        Mangelhaften Werk bestehen folgende Möglichkeiten:</p>
+    <ul>
+        <li>Wandelung (Kauf rückgängig machen und auf die Ware verzichten)</li>
+        <li>Minderung (Preisnachlass –Der Kunde erhält einen Rabatt)</li>
+        <li>Ersatzleistung (Der Kunde erhält ein einwandfreies Produkt – findet nur bei Gattungsware Anwendung)</li>
+    </ul>
+    <p>Dabei muss folgende Reihenfolge eingehalten werden:</p>
+    <ol>
+        <li>Prüfung: Der Kunde muss die Ware so schnell wie möglich auf Mängel prüfen.</li>
+        <li>Anzeige: Der Kunde muss die Mängel, sofern er welche entdeckt hat, umgehend an den Verkäufer melden. Die
+            Mängel müssen dabei genau beschrieben werden.
+        </li>
+        <li>Aufbewahren: Bei einem Distanzkauf kann der Kunde die Ware nicht einfach zurückschicken, sondern muss sie
+            aufbewahren, bis der Fall geklärt ist.
+        </li>
+    </ol>
+
+    <h5>Einfacher Auftrag</h5>
+    <p>Der einfache Auftrag hat viele Ähnlichkeiten zum Werkvertrag. Jedoch findet man den einfachen Auftrag zumeist im
+        Bereich der Dienstleistungen. Beim einfachen Auftrag gibt es, anders als beim Werkarbeitsvertrags, keine
+        Erfolgsgarantie. Daher findet der einfache Auftrag hauptsächlich bei Ärzten Anwendung. Es kann einfach nicht
+        garantiert werden, dass ein Patient nach einer Behandlung wieder gesund ist. Die Aufgabe des Arztes ist es
+        lediglich nach seinem besten Versuchen zu handeln.</p>
+
+
+    <h3>Beenden eins Arbeitsverhältnisses</h3>
+    <p>Im Gesetz gibt es keine vorgegebene Form für Kündigungen. Das heisst sie können mündlich sowie schriftlich
+        zugestellt werden. Da bei einer Kündigung das Datum des Empfangens massgebend für die Kündigungsfrist ist, kommt
+        es bei einer schriftlichen Kündigung via Brief auf das Datum an, an welchem die jeweils andere Partei den Brief
+        erhalten bzw. von der Post abgeholt hat.</p>
+
+    <h5>Durch Zeitablauf</h5>
+    <p>Bei einem befristeten Arbeitsvertrag läuft das Arbeitsverhältnis automatisch mit dem Ablaufen der festgelegten
+        Zeit ab.</p>
+
+    <h5>Durch Kündigung</h5>
+    <p>Während der Probezeit (welche auf maximal 3 Monate verlängert werden kann) kann jederzeit mit einer
+        Kündigungsfrist von sieben Tagen gekündigt werden. <br>
+        Nach der Probezeit orientieren sich die Kündigungsfristen der
+        Anzahl absolvierter Dienstjahre:</p>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Anzahl Dienstjahre</th>
+            <th scope="col">Kündigungsfrist</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Erstes Dienstjah</td>
+            <td>1 Monat</td>
+        </tr>
+        <tr>
+            <td>Im 2. –9. Dienstjahr</td>
+            <td>2 Monate</td>
+        </tr>
+        <tr>
+            <td>+10. Dienstjahr</td>
+            <td>3 Monate</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>Wichtig bei der Kündigungsfrist ist, dass sie für beide Parteien gleich lang ist. Zudem können andere Fristen
+        vereinbart werden, dies muss jedoch schriftlich festgehalten werden und müssen auch weiterhin gewisse Vorlagen
+        erfüllen.</p>
+
+    <h6>Durch fristlose Kündigung</h6>
+    <p>Kann das Arbeitsverhältnis eine der beiden Parteien nicht mehr zugemutet werden, kann die betroffene Partei
+        fristlos kündigen und das Arbeitsverhältnis sofort beenden.</p>
+    <h6>Unberechtigte fristlose Kündigung</h6>
+    <p>Wird ein Arbeitnehmer ohne berechtigte Gründe fristlos gekündigt, so kann er den Lohn während der Kündigungsfrist
+        sowie bis zu 6-mal den Monatslohn als Entschädigung fordern.</p>
+    <p>Kündigt der Arbeitnehmer grundlos so kann der Arbeitgeber einen Viertel des Lohns und den verursachten Schaden
+        fordern.</p>
+
+    <h6>Missbräuchliche Kündigung</h6>
+    <p>Ist der Grund einer Kündigung nicht haltbar, kann eine Entschädigung in der Höhe bis zu 6 Monatslöhnen gefordert
+        werden. Jedoch wird vorausgesetzt das die Gegenpartei bis zum Ende der Kündigungsfrist, schriftlich Einspruch
+        erhebt.</p>
+
+    <h6>Kündigung zur Unzeit</h6>
+    <p>Als Unzeiten werden Zeitspannen bezeichnet, in welchen es untersagt ist, eine Kündigung einzureichen. z.B. im
+        Militärdienst, Schwangerschaft, Krankheit/Unfall. Alles Kündigen welche in dieser Zeit versendet werden sind
+        nichtig. Wird eine Kündigung vor einer solchen Zeit ausgesprochen, verlängert sich dieKündigungsfrist um die
+        Zeit der Unzeit.</p>
+
+    <h3 id="uebung">Übung</h3>
+</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* TAGS */
+html, body {
+    color: black !important;
+    height: 100% !important;
+    scroll-behavior: smooth !important;
+}
+video {
+    width: 100vh !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+img {
+    width: 20vh !important;
+}
+/* ICON */
+i {
+    font-size: 1.5vw;
+}
+a, .container a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black  !important;
+}
+h1 {
+    text-align: center;
+}
+h1, h3 {
+    margin-top: 2vw !important;
+}
+h5 {
+    margin-top: 1.5vw !important;
+}
+
+/* CLASSES */
+.navbar, .navbar a, .nav-item , .nav-item  > * {
+    color: white;
+    background-color: gray !important;
+}
+.navbar {
+    padding-left: 2vw;
+    margin-bottom: 2vw;
+}
+.disabled {
+    color: black !important;
+}
+.container {
+    padding-right: 10vw !important;
+    padding-left: 10vw !important;
+    padding-bottom: 5vw !important;
+}
+.home .themebox {
+    border: solid black 1px;
+    border-radius: 1vw;
+    padding-top: 1vw;
+}
+
+.home .vwl {
+ color: #66CC00;
+}
+.home .bwl {
+color: #FF9534;
+}
+.home .recht {
+color: #d5b60a;
+}
+
+/*FRW*/
+.container.frw h3 {
+color: #242CC1;
+}
+.container.frw h5 {
+color: #626482;
+}
+.container.frw em {
+color: #7B7FD7;
+}
+
+/* WR */
+/* bwl */
+.container.bwl h3 {
+    color: #FF9534;
+}
+.container.bwl h5 {
+    color: #D16400;
+}
+.container.bwl em {
+    color: #DF538C;
+}
+/* vwl */
+.container.vwl h3 {
+    color: #66CC00;
+}
+.container.vwl h5 {
+    color: #339933;
+}
+.container.vwl em {
+    color: #7B7FD7;
+}
+/* vwl */
+.container.recht h3 {
+    color: #d5b60a;
+}
+.container.recht h5 {
+    color: #CCCC33;
+}
+.container.recht h6 {
+    color: #99CC33;
+}
+.container.recht em {
+    color: #339933;
+}
+
+
+/* ID */
+#wrDropdown {
+    color: #FF9534 ;
+}
+#frwDropdown {
+    color: darkblue;
+}
