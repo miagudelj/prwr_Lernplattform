@@ -5,11 +5,11 @@ class Choices extends HTMLElement {
         const aufgabe = this.attributes.aufgabe.value;
 
         this.innerHTML = `
-    <div id='${answer}block' style='padding: 10px;'>
-        <label for='option' style=' padding: 5px; font-size: 2.5rem;'>
+    <div id='${answer}block${aufgabe}' style='padding: 10px;'>
+        <label for='option' style=' padding: 5px;'>
             <input type='radio' name='option' id="${answer}" value='${correct}' class='${aufgabe}' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' />
             ${answer}</label>
-        <span id='${answer}result'></span>
+        <span id='${answer}result${aufgabe}'></span>
     </div>`;
     }
 }
@@ -21,8 +21,8 @@ function displayAnswerChoice(aufgabe) {
     Array.from(elements).forEach(loopfunction);
 }
 function loopfunction(item){
-    const answer = item.id + "block";
-    const result = item.id + "result";
+    const answer = item.id + "block" + item.className;
+    const result = item.id + "result" + item.className;
     if (item.checked){
         showAnswer(answer,result,item.value)
     }
