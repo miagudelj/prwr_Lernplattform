@@ -103,42 +103,152 @@
 <div class="container frw">
 
     <h1>Abschreibungen</h1>
-
-    <h3 id="theorie">Definiton</h3>
-    <p>Wertverlust durch Nutzung, Alter etc.</p>
-    <p><em>Bsp. Auto verliert an seinen Wert durch gefahrene Strecke.</em></p>
-    <p>Oftmals bei Mobilien, Maschinen, Fahrzeuge (Anlagevermögen)</p>
-
-    <h3>Arten von Abschreibungen:</h3>
-    <h5>Linear: immer der gleiche Betrag</h5>
-    <p>Man setzt einen Prozentsatz <b>zum Anschaffungswert</b> eines Anlagevermögens.</p>
-    <p><em>Bsp. Über 5 Jahre 20% vom Anschaffungswert (100'000 CHF)</br>
-        Abschreibung: 20'000 CHF pro Jahr</em></p>
-
-    <h5>Degressiv: immer der gleiche Prozentsatz des Buchwerts</h5>
-    <p>Man schreibt immer den gleichen Prozentsatz <b>des Buchwerts</b> ab.</p>
-    <p><em>Bsp. Über 5 Jahre 40% vom Buchwert (variabler Wert)</em></p>
-
-    <h3>Arten von Verbuchungen:</h3>
-    <h5>Direkte Verbuchung</h5>
-    <p><em>Bsp. Abschreibung / Maschine 40’000</em></p>
-    <p>Man sieht nur Buchwert</p>
-    <h5>Indirekte Verbuchung</h5>
-    <p>
+    <h2>Definition</h2>
+    <p>Jeder Geschäfts Inhaber musss mit Wertverlust (Abnutzung, Alter, neue Modelle etc.) an Anlagen rechnen. Diese werden jeweils Ende Jahr gebucht.Für die Buchung werden die Anlagekonten (Aktivkonto), das dazugehörende Wertberichtigungskonto und das Abschreibungen-Konto (Aufwandskonto)gebraucht.</p>
+    <h2>Berechnung Anschaffungswert</h2>
+    <p>Kaufpreis brutto (Rechnung des Lieferanten)</p>
     <table>
         <tbody>
-        <tr>
-            <td><em>Bsp.</em></td>
-            <td><em>Abschreibung / Maschine 40’000</em></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><em>WB Maschine / Maschine 40’000</em></td>
-        </tr>
+            <tr>
+                <td>-</td>
+                <td>Rabatt und/oder Skonto</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>Mehrwertsteuer (wenn Vorsteuer geltend gemacht werden kann)</td>
+            </tr>
+            <tr>
+                <td colspan="2">-----------------------------------------------------------------------------------------------</td>
+            </tr>
+            <tr>
+                <td>=</td>
+                <td>Zahlungsbetrag</td>
+            </tr>
+            <tr>
+                <td>+</td>
+                <td>Transport, Installation der Anlage</td>
+            </tr>
+            <tr>
+                <td colspan="2">-----------------------------------------------------------------------------------------------</td>
+            </tr>
+            <tr>
+                <td>=</td>
+                <td>Anschaffungswert</td>
+            </tr>
         </tbody>
     </table>
-    </p>
-    <p>Man sieht den Gesamten Betrag</p>
+    <h2>Arten von Abschreibungen:</h2>
+    <h3>Linear: immer der gleiche Betrag</h3>
+    <p>Man setzt einen Prozentsatz zum Anschaffungswert eines Anlagevermögens.</p>
+    <p>Anschaffungswert: Der Betrag, was man für das Gerät bezahlt hat.</p>
+    <p>Bsp. Über 5 Jahre 20% vom Anschaffungswert (100'000 CHF)</p>
+    <p>Abschreibung: 20'000 CHF pro Jahr</p>
+    <h3>Degressiv: immer der gleiche Prozentsatz des Buchwerts</h3>
+    <p>Man schreibt immer den gleichen Prozentsatz des Buchwerts ab.</p>
+    <p>Buchwert: aktuelle Wert des Anlagevermögens.</p>
+    <p>Bsp. Über 5 Jahre 40% vom Buchwert (variabler Wert)</p>
+    <table>
+        <tbody>
+            <tr>
+                <td>Abschreibung</td>
+                <td>1 Jahr</td>
+                <td>40'000 CHF</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>2 Jahr</td>
+                <td>16'000 CHF</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>...</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>5 Jahr</td>
+                <td>28'640 (Restwert)</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Solange kein Restwert definiert wird, ergibt der Restwert nicht 0.</p>
+    <img src="vergleich_abschreibung.PNG" height="450px" width="800px"/>
+    <h2>Arten von Verbuchungen</h2>
+    <h3>Direkte Verbuchung</h3>
+    <table>
+        <tbody>
+            <tr>
+                <td>Bsp.</td>
+                <td>Abschreibungen/ Fahrzeuge</td>
+                <td>40'000</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Man sieht nur Buchwert</p>
+    <h3>Indirekte Verbuchung</h3>
+    <table>
+        <tbody>
+            <tr>
+                <td>Bsp.</td>
+                <td>Abschreibungen/ WB Fahrzeuge</td>
+                <td>40'000</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>WB Fahrzeuge/ Fahrzeuge</td>
+                <td>40'000</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Durch die indirekte Verbuchung werdendie gesamte Abschreibung und somit auch der Anschaffungswert des Anlagevermögens ersichtlich.</p>
+    <p>Ein Wertberichtigungskonto ist ein Minus-Aktivkonto, das heisst ein Wertberichtigungskontowird in der Bilanz mit dem entsprechendem Aktivkonto verrechnet.</p>
+    <h2>Verkauf</h2>
+    <ol>
+        <li>
+            Verkaufserlös buchen<br/>
+            FLL / Fahrzeuge
+        </li>
+        <li>
+            Allfällige Wertberichtigung auflösen:<br/>
+            WB Fahrzeuge/Fahrzeuge
+        </li>
+        <li>Gewinn oder Verlust Buchen
+            <ol type="a">
+                <li>
+                    Überbewertung des Anlagevermögens (Verkaufserlös < Buchwert):<br/>
+                    Ich verkaufe ein Geschäftsautomit einem Buchwert von 10'000 CHF für 8'000 CHF
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>FLL/ Fahrzeuge</td>
+                                <td>8'000</td>
+                            </tr>
+                            <tr>
+                                <td>A.o. Aufwand/ Fahrzeuge</td>
+                                <td>2'000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+                <li>
+                    Unterbewertung des Anlagevermögens (Verkaufserlös > Buchwert):<br/>
+                    Ich verkaufe ein Geschäftsauto mit einem Buchwert von 10'000 CHF für 13'000 CHF
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>FLL/ Fahrzeuge</td>
+                                <td>13'000</td>
+                            </tr>
+                            <tr>
+                                <td>Fahrzeuge / A.o. Ertrag</td>
+                                <td>3'000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </li>
+            </ol>
+        </li>
+    </ol>
 
     <h3 id="uebung">Übung</h3>
 </div>
