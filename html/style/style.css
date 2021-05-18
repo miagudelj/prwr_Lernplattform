@@ -5,10 +5,15 @@ html, body {
     scroll-behavior: smooth !important;
 }
 video {
-    width: 100vh !important;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80vh!important;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     display: block;
+    border: solid #d1d2d4 1px;
+}
+img {
+    width: 30vw !important;
+    margin-top: 1vw;
 }
 /* ICON */
 i {
@@ -64,7 +69,6 @@ color: #FF9534;
 .home .recht {
 color: #d5b60a;
 }
-
 /*FRW*/
 .container.frw h3 {
 color: #242CC1;
@@ -74,6 +78,13 @@ color: #626482;
 }
 .container.frw em {
 color: #7B7FD7;
+}
+
+.row {
+    margin-bottom: 2vw;
+}
+.small {
+    width: 40vh !important;
 }
 
 /* WR */
@@ -109,6 +120,13 @@ color: #7B7FD7;
 }
 .container.recht em {
     color: #339933;
+}
+.container.recht .btn {
+    color: black;
+    background-color: #d5b60a;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
 }
 
 
